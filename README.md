@@ -9,7 +9,7 @@ Empower your project with self-contained OBJ and MTL parser.
 ### Parsed examples
 *pyOBJParser have been integrated into the [pyOBJExplorer](https://github.com/StefanJohnsen/pyOBJExplorer), showcasing the parsing capabilities.*
 
-![OBJExplorer](https://github.com/StefanJohnsen/OBJExplorer/blob/main/objFiles/explorer.png)
+![OBJExplorer](https://github.com/StefanJohnsen/pyOBJExplorer/blob/main/objFiles/explorer.png)
 
 ## Usage
 
