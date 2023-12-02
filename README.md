@@ -9,7 +9,7 @@ Empower your project with self-contained OBJ and MTL parser.
 ### Parsed examples
 *pyOBJParser have been integrated into the [pyOBJExplorer](https://github.com/StefanJohnsen/pyOBJExplorer), showcasing the parsing capabilities.*
 
-![OBJExplorer](https://github.com/StefanJohnsen/OBJExplorer/blob/main/objFiles/explorer.png)
+![OBJExplorer](https://github.com/StefanJohnsen/pyOBJExplorer/blob/main/objFiles/explorer.png)
 
 ## Usage
 
@@ -129,6 +129,7 @@ geometry: mat_7, color: rgb(0.3, 0.6, 0.3), faces : 18
 geometry: mat_8, color: rgb(0.2, 0.2, 0.6), faces : 18
 
 ```
+*This script serves as a solid foundation. However, I highly recommend exploring [pyOBJExplorer](https://github.com/StefanJohnsen/pyOBJExplorer) for a more detailed examination of all the geometry data.*
 
 ## References
 The following sources have been utilized in the development of this Wavefront MTL parser.
