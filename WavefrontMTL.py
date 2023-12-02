@@ -31,10 +31,7 @@ class Material:
     def color(self): return self.Kd
     def opacity(self): return self.d
     def shininess(self): return self.Ns
-    def texture(self, basename = True):
-        if self.map_Kd is None: return None
-        if basename: return os.path.basename(self.map_Kd)
-        return self.map_Kd
+    def texture(self): return self.map_Kd
 
 def mtlFile(file):
     if file is None: return None
