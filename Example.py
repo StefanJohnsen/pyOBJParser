@@ -52,10 +52,21 @@ def load_Wavefront(file):
     else:
         print(f"Content of {file}:")
         for name, geometry in geometries.items():
+            
             material = mtl.material(name)
             color = rgb(material.color())
+           
             faces = len(geometry.face)
-            print(f"geometry: {name}, color: {color}, faces : {faces}")
+            if faces > 0:
+                print(f"geometry: {name}, color: {color}, faces : {faces}")
+                
+            lines = len(geometry.line)
+            if lines > 0:
+                print(f"geometry: {name}, color: {color}, lines : {lines}")
+                
+            points = len(geometry.point)
+            if points > 0:
+                print(f"geometry: {name}, color: {color}, points : {points}")
 
 #-------------------------------------------------------------------------------------
 
